@@ -41,7 +41,7 @@ const footballTeams = [
 const footballTeamsOnlyFouls = [];
 
 const generateRandomNumber = (max) => {
-  return Math.floor(Math.random() * max);
+  return Math.floor(Math.random() * (max + 1));
 };
 
 for (const team of footballTeams) {
